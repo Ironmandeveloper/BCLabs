@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project involves the creation of a front-end page for a cryptocurrency exchange application using Next.js. Additionally, it includes the development of an API in Next.js for storing basic information about asset information.
+
 
 ## Getting Started
 
