@@ -6,7 +6,6 @@ import { getAssets } from "@/db/lib";
 
 export default async function Page() {
   const data = await getAssets();
-
   return (
     <MainLayout>
       <>

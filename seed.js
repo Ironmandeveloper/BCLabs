@@ -1,5 +1,5 @@
 const { MongoClient } = require('mongodb')
-require('dotenv').config();
+require('dotenv').config({path:'./.env.local'});
 
 const mockIcon = 'https://img.freepik.com/free-vector/cryptocurrency-bitcoin-golden-coin-background_1017-31505.jpg';
 

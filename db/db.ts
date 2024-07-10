@@ -8,9 +8,7 @@ if (!process.env.MONGODB_URI) {
   throw new Error('Add Mongo URI to .env.local')
 }
 
-if (process.env.NODE_ENV === 'development') {
-  const client = new MongoClient(uri)
-  mongodbClient = client.connect()
-}
+const client = new MongoClient(uri)
+mongodbClient = client.connect()
 
 export default mongodbClient
